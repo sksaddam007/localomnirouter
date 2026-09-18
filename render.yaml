@@ -4,7 +4,13 @@ services:
     runtime: docker
     plan: free
     envVars:
+      - key: OMNIROUTE_SERVER_HOST
+        value: "0.0.0.0"
+      - key: OMNIROUTE_PORT
+        value: "10000"
       - key: PORT
         value: "10000"
+      - key: HOSTNAME
+        value: "0.0.0.0"
       - key: NODE_ENV
         value: production
