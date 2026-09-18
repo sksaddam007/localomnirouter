@@ -3,3 +3,11 @@
 .DS_Store
 data/
 *.log
+.neon
+.agents
+skills-lock.json
+package.json
+package-lock.json
+neon.ts
+node_modules/
+render.yaml
